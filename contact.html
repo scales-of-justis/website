@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Scales of Justis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .form-group label {
+        font-weight: bold;
+      }
+      .form-group input[type="text"],
+      .form-group input[type="email"],
+      .form-group textarea {
+        border-radius: 0;
+      }
+      .form-group textarea {
+        height: 200px;
+      }
+      .btn-primary {
+        background-color: #f00;
+        border-color: #f00;
+      }
+      .btn-primary:hover,
+      .btn-primary:focus {
+        background-color: #e60000;
+        border-color: #e60000;
+      }
+      .btn-primary:active,
+      .btn-primary.active {
+        background-color: #b30000;
+        border-color: #b30000;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-danger navbar-dark fixed-top">
+      <a class="navbar-brand" href="#">Scales of Justis</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <h1>Contact Scales of Justis</h1>
+      <p>Fill out the form below to get in touch with Scales of Justis.</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

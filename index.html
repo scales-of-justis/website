@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scales of Justis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .jumbotron {
+        background-image: url("img/background-image.jpg");
+        background-size: cover;
+        color: #fff;
+        text-shadow: 2px 2px #000;
+        padding-top: 150px;
+        padding-bottom: 100px;
+      }
+      .nav-link {
+        color: #fff;
+      }
+      .nav-link:hover {
+        color: #f00;
+      }
+      .card {
+        margin-bottom: 30px;
+      }
+      .card-img-top {
+        height: 250px;
+        object-fit: cover;
+      }
+      .embed-responsive {
+        height: 0;
+        padding-bottom: 56.25%;
+        position: relative;
+      }
+      .embed-responsive iframe {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-danger navbar-dark fixed-top">
+      <a class="navbar-brand" href="#">Scales of Justis</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#videos">Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">Scales of Justis</h1>
+        <p class="lead">True freestyle rapper from Auburn, WA</p>
+      </div>
+    </div>
+    <div class="container">
+      <h2 id="about">About Scales of Justis</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>Scales of Justis is a true freestyle rapper who specializes in off-the-top performances and battles. Born and raised in Auburn, WA, he discovered his passion for hip-hop at a young age and began writing his own rhymes. As he honed his craft, he became known for his quick wit and ability to improvise on the spot.</p>
+          <p>Today, Scales of Justis is a well-respected figure in the rap community and has competed in several local and national rap battles and competitions. His dedication to the art of freestyle has earned him a loyal fan base, and he continues to inspire and challenge other aspiring rappers to push the limits of their own creativity.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="img/scales-of-justis.jpg" class="img-fluid" alt="Scales of Justis">
+        </div>
+      </div>
+      <h2 id="videos">Videos</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/abc123"></iframe>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Scales of Justis vs. MC Battle Cat</h5>
+              <p class="card-text">Watch Scales of Justis battle it out with MC Battle Cat in this epic freestyle battle.</p>
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/def456"></iframe>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Scales of Justis - Off the Top</h5>
+              <p class="card-text">Check out Scales of Justis's latest freestyle off the top of the dome.</p>
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <h2 id="contact">Contact Scales of Justis</h2>
+      <p>Fill out the form below to get in touch with Scales of Justis.</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+      <hr>
+      <footer>
+        <p>&copy; 2023 Scales of Justis</p>
+      </footer>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
